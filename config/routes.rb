@@ -1,4 +1,10 @@
 AWEPLAN::Application.routes.draw do
+  resources :invitations
+
+  resources :groups
+
+  resources :users
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
